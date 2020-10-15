@@ -53,6 +53,7 @@ RUN echo 'root:yourpassword' |chpasswd
 #RUN echo -e "yourpassword\nyourpassword" | passwd
 RUN yum -y install openssh-server
 RUN yum -y install openssh-clients
+RUN yum -y install git
 CMD /usr/sbin/init systemctl restart sshd
 RUN chkconfig sshd on
  
