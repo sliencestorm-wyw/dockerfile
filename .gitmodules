@@ -1,0 +1,3 @@
+[submodule "webconsole"]
+	path = webconsole
+	url = https://github.com/sliencestorm-wyw/webconsole.git
